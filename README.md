@@ -1,1 +1,1 @@
-Download the file and unzip it to view pages correctly
+Download the file and extract it to view pages correctly
