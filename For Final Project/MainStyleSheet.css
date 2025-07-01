@@ -1,0 +1,159 @@
+ /* Fonts */
+    .roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+ /* Stop browser from spacing my stuff */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font applying to whole html */
+html {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  /* Optional: default variable-font width and weight */
+  font-variation-settings: "wdth" 100;
+  font-weight: 400;
+}
+/*Body Control */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#788AA3,#92B6B1);
+  background-attachment: fixed;
+
+
+}
+
+/* NavBar Style */
+.nav {
+list-style: none;
+padding: 0;
+display:flex;
+justify-content: center;
+background-color:#666A86;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+   /* Hover function */
+.nav a:hover {
+    background-color: #788AA3;
+}
+
+
+
+ /* Navbar end */
+
+   /* Fitting in that mountain image  */
+ .mount {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.mount img {
+  width: 100%;
+  height: 100%;
+  /*object-fit: cover;*/
+  max-width: 100%;
+  /*object-position: center;*/
+  display: block;
+
+}
+
+/* table */
+table {
+  margin: 100px auto;           /* centers table with top/bottom space */
+  border-collapse: collapse;   /* optional: cleans up double borders */
+  width: 80%;                  /* optional: controls how wide the table gets */
+}
+
+th, td {
+  padding: 12px 20px;          /* space inside the cells */
+  text-align: center;          /* centers the content inside */
+  border: 3px solid #E8DDB5;      /* adds visible borders */
+}
+ /* list */
+.reallist{
+   list-style-position: inside;
+  text-align: center;
+  list-style-type: square;
+  font-size: 30px;
+}
+
+.resume-adjust
+{
+    text-align: left;
+    padding-left: 200px;
+    color: #F5FFFA;
+
+                      }
+
+/* !!!!TOOLS TO USE!!!! */
+            /* Centers text in its class */
+ .center {
+    text-align: center;
+ }
+            /* pads the top a medium amount */
+ .medtoppadding{
+     padding-top: 100px;
+ }
+    /* small padding on the top */
+ .smalltoppading{
+     padding-top: 75px;
+ }
+         /* For making image center and creating a round border */
+ .center-border-img{
+     display: block;
+      margin-left: auto;
+      margin-right: auto;
+       border-radius: 20px;
+       margin-top: 30px;
+ }
+   /* Aligns left */
+ .left-align {
+  display: block;
+  margin: 0;
+}
+    /* Aligns right */
+.right-align {
+  display: block;
+  width: fit-content; /* or a set width like 300px */
+  margin-left: auto;
+  margin-right: 0;
+}
+     /* For yellow headers */
+.headyell{
+    color: #E8DDB5;
+     font-size:50px;
+}
+
+
+
+
+
+
+  /* !!!!END TOOLS!!!! */
